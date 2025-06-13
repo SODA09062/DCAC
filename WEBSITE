@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DCAC | Resell Cheats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DCAC - The best place to resell cheats. Secure, fast, and trusted.">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: #17181c;
+      color: #f2f2f2;
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+    header {
+      background: #20222b;
+      padding: 32px 0 16px 0;
+      text-align: center;
+      border-bottom: 2px solid #0de8ff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      letter-spacing: 0.05em;
+      color: #0de8ff;
+      font-weight: 700;
+    }
+    header p {
+      margin: 12px 0 0 0;
+      font-size: 1.1em;
+      color: #b4b4b4;
+      font-weight: 400;
+    }
+    .actions {
+      margin: 32px 0 0 0;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      margin: 0 12px;
+      padding: 14px 36px;
+      font-size: 1.1em;
+      font-weight: 700;
+      color: #17181c;
+      background: linear-gradient(90deg, #0de8ff 60%, #1e90ff 100%);
+      border: none;
+      border-radius: 28px;
+      text-decoration: none;
+      transition: background 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 12px 0 rgba(13, 232, 255, 0.10);
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #1e90ff 60%, #0de8ff 100%);
+      box-shadow: 0 4px 18px 0 rgba(13, 232, 255, 0.20);
+      color: #fff;
+    }
+    .products {
+      max-width: 900px;
+      margin: 48px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      justify-content: center;
+    }
+    .product-card {
+      background: #22232d;
+      border-radius: 14px;
+      box-shadow: 0 2px 16px 0 rgba(0,0,0,0.13);
+      padding: 28px 22px 22px 22px;
+      width: 310px;
+      text-align: center;
+      position: relative;
+      transition: transform 0.18s;
+    }
+    .product-card:hover {
+      transform: translateY(-6px) scale(1.025);
+      box-shadow: 0 8px 32px 0 rgba(13,232,255,0.15);
+    }
+    .product-title {
+      font-size: 1.3em;
+      color: #0de8ff;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .product-desc {
+      color: #dadada;
+      font-size: 1em;
+      margin-bottom: 18px;
+      min-height: 48px;
+    }
+    .product-link {
+      display: inline-block;
+      padding: 10px 24px;
+      border-radius: 20px;
+      background: #0de8ff;
+      color: #22232d;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.18s;
+      margin-bottom: 6px;
+    }
+    .product-link:hover {
+      background: #1e90ff;
+      color: #fff;
+    }
+    .discord-section {
+      text-align: center;
+      margin: 48px 0;
+    }
+    .discord-btn {
+      display: inline-flex;
+      align-items: center;
+      font-size: 1.1em;
+      font-weight: 700;
+      padding: 12px 32px;
+      background: #5865F2;
+      color: #fff;
+      border: none;
+      border-radius: 24px;
+      text-decoration: none;
+      transition: background 0.18s;
+      margin: 8px 0;
+    }
+    .discord-btn:hover {
+      background: #4048a9;
+    }
+    .discord-btn svg {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    footer {
+      text-align: center;
+      color: #6a6a6a;
+      padding: 38px 0 30px 0;
+      margin-top: 60px;
+      font-size: 0.95em;
+      border-top: 1px solid #232336;
+    }
+    @media (max-width: 700px) {
+      .products {
+        flex-direction: column;
+        gap: 22px;
+      }
+      .product-card {
+        width: 94vw;
+        max-width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DCAC Cheats Store</h1>
+    <p>Your trusted site for resell cheats. Secure, quick, and always up!</p>
+    <div class="actions">
+      <a href="#products" class="btn">View Products</a>
+      <a href="https://discord.gg/3Hf2Atxy" class="btn" target="_blank" rel="noopener">Join Discord</a>
+    </div>
+  </header>
+
+  <section class="products" id="products">
+    <div class="product-card">
+      <div class="product-title">Product 1</div>
+      <div class="product-desc">
+        Powerful cheat for your favorite game. Instant delivery and full support.<br>
+        <small>Digital download – secure and fast.</small>
+      </div>
+      <a class="product-link" href="https://shoppy.gg/product/hplSdIq" target="_blank" rel="noopener">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <div class="product-title">Product 2</div>
+      <div class="product-desc">
+        Advanced features and regular updates. Trusted by hundreds.<br>
+        <small>Lifetime access available.</small>
+      </div>
+      <a class="product-link" href="https://shoppy.gg/product/hyk6AsA" target="_blank" rel="noopener">Buy Now</a>
+    </div>
+  </section>
+
+  <section class="discord-section">
+    <a class="discord-btn" href="https://discord.gg/3Hf2Atxy" target="_blank" rel="noopener">
+      <svg width="28" height="28" viewBox="0 0 245 240" fill="none"><g><path fill="#fff" d="M104.4 104.7c-5.7 0-10.2 5-10.2 11.2s4.6 11.2 10.2 11.2c5.7 0 10.2-5 10.3-11.2.1-6.2-4.5-11.2-10.3-11.2m36.2 0c-5.7 0-10.2 5-10.2 11.2s4.6 11.2 10.2 11.2c5.7 0 10.2-5 10.3-11.2 0-6.2-4.5-11.2-10.3-11.2"/><path fill="#fff" d="M222.5 0H22.5C10.1 0 0 9.8 0 21.9v196.2c0 12.1 10.1 21.9 22.5 21.9h178.7l-8.4-29.1 20.3 18.9 19.2 17.8V21.9C245 9.8 234.9 0 222.5 0zM81.7 162.4c0 .7-.6 1.3-1.3 1.3-11.7-1.5-22.9-4.8-32.9-10.2-.6-.3-.9-1-.6-1.6.3-.6 1-.9 1.6-.6 9.8 5.3 20.7 8.6 32.2 10 .7.1 1.1.7 1 1.3zm-13-31.6c-2.8 0-5.2-2.7-5.2-5.8s2.3-5.8 5.2-5.8c2.9 0 5.2 2.7 5.2 5.8s-2.3 5.8-5.2 5.8zm97.2 31.6c0 .6-.4 1.2-1 1.3-11.6-1.4-22.4-4.7-32.2-10-.6-.3-.9-1-.6-1.6.3-.6 1-.9 1.6-.6 10 5.3 21.2 8.6 32.9 10.2.8.1 1.4.6 1.3 1.3zm-12.8-31.6c-2.9 0-5.2-2.7-5.2-5.8s2.3-5.8 5.2-5.8c2.8 0 5.2 2.7 5.2 5.8s-2.3 5.8-5.2 5.8z"/></g></svg>
+      Join our Discord Community
+    </a>
+    <p>Need help or want to chat? Join our Discord for support and updates!</p>
+  </section>
+
+  <footer>
+    &copy; 2025 DCAC. All rights reserved. This site is for demonstration purposes only.<br>
+    Not affiliated with any game or platform.
+  </footer>
+</body>
+</html>
